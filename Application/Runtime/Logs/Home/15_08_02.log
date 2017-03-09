@@ -1,0 +1,502 @@
+[ 2015-08-02T15:33:40+08:00 ] 127.0.0.1 /index.php/user/login?username=1111&password=0000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `user` WHERE ( username=1111 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-02T15:33:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2015-08-02T15:33:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2015-08-02T16:00:07+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `auto_prename`  [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\wamp1\www\tp\Application\Home\Controller\UserController.class.php 第 53 行.
+
+[ 2015-08-02T16:00:25+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `auto_prename`  [ RunTime:0.0002s ]
+
+[ 2015-08-02T16:01:05+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0028s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by rand() limit 1 )' at line 1
+
+[ 2015-08-02T16:03:24+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-02T16:03:53+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `auto_prename` WHERE `id` = 0 ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-02T16:05:01+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-02T16:05:01+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0024s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-02T16:05:18+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0022s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-02T16:05:29+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0037s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-02T16:05:33+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-02T16:06:29+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0025s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0022s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Array to string conversion D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 128 行.
+NOTIC: [8] Array to string conversion D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 128 行.
+
+[ 2015-08-02T16:06:30+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 128 行.
+NOTIC: [8] Array to string conversion D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 128 行.
+
+[ 2015-08-02T16:06:52+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0152s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0038s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-02T16:07:01+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0022s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-02T16:07:05+08:00 ] 127.0.0.1 /index.php/user/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0035s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0034s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-02T16:15:54+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0026s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0022s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '善良的小猪' in 'where clause'
+
+[ 2015-08-02T16:16:46+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0024s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0022s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '慈悲的苹果' in 'where clause'
+
+[ 2015-08-02T16:16:47+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0023s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0021s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '勇敢的小猪' in 'where clause'
+
+[ 2015-08-02T16:16:48+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0022s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0021s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '勇敢的小猪' in 'where clause'
+
+[ 2015-08-02T16:16:49+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0024s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0021s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '善良的小猪' in 'where clause'
+
+[ 2015-08-02T16:18:54+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '善良的凳子' in 'where clause'
+
+[ 2015-08-02T16:18:55+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0025s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0021s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '善良的小猪' in 'where clause'
+
+[ 2015-08-02T16:20:04+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0026s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '善良的小猪' in 'where clause'
+
+[ 2015-08-02T16:20:04+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0027s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '勇敢的凳子' in 'where clause'
+
+[ 2015-08-02T16:20:05+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '善良的苹果' in 'where clause'
+
+[ 2015-08-02T16:20:05+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0023s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '勇敢的小猪' in 'where clause'
+
+[ 2015-08-02T16:20:05+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0036s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0033s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '勇敢的苹果' in 'where clause'
+
+[ 2015-08-02T16:20:05+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0048s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0047s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0048s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '慈悲的小猪' in 'where clause'
+
+[ 2015-08-02T16:20:05+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0021s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '慈悲的凳子' in 'where clause'
+
+[ 2015-08-02T16:21:04+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0024s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0022s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '善良的小猪' in 'where clause'
+
+[ 2015-08-02T16:21:10+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0053s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0056s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0051s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '善良的苹果' in 'where clause'
+
+[ 2015-08-02T16:21:55+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0034s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0034s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-02T16:22:18+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE `name` = '勇敢的凳子'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE ( username=1212121232 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('1212121232','9e270010f6590c3b181b15a69f920ac0','勇敢的凳子','1438503738') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0320s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438503738','1438503738') [ RunTime:0.0003s ]
+
+[ 2015-08-02T16:41:44+08:00 ] 127.0.0.1 /index.php/user/region?username=1212121232&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0024s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0024s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `name` = '勇敢的小猪'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auto_head` [ RunTime:0.0021s ]
+SQL: SELECT `img` FROM `auto_head` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE ( username=1212121232 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-02T16:41:50+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212324&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `auto_prename` [ RunTime:0.0025s ]
+SQL: SELECT `name` FROM `auto_prename` ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auto_latename` [ RunTime:0.0021s ]
+SQL: SELECT `name` FROM `auto_latename` ORDER BY rand() LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `name` = '慈悲的小猪'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auto_head` [ RunTime:0.0021s ]
+SQL: SELECT `img` FROM `auto_head` ORDER BY rand() LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212324 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212324','9e270010f6590c3b181b15a69f920ac0','慈悲的小猪','1438504910') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0023s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('public/headimg/20150429_110936.jpg','0','0','1438504910','1438504910') [ RunTime:0.0002s ]
+
+[ 2015-08-02T17:51:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004635s ]
+
+[ 2015-08-02T18:20:19+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2015-08-02T19:05:34+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+

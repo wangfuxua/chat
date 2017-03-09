@@ -1,0 +1,302 @@
+[ 2015-07-31T16:04:56+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438329896') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0022s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438329896','1438329896') [ RunTime:0.0128s ]
+
+[ 2015-07-31T16:04:56+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2015-07-31T16:04:56+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2015-07-31T16:06:14+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438329974') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0029s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438329974','1438329974') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:06:16+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438329976') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0022s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438329976','1438329976') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:06:16+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0048s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438329976') [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438329976','1438329976') [ RunTime:0.0003s ]
+
+[ 2015-07-31T16:06:17+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438329977') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0034s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438329977','1438329977') [ RunTime:0.0003s ]
+
+[ 2015-07-31T16:06:17+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438329977') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0055s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438329977','1438329977') [ RunTime:0.0004s ]
+
+[ 2015-07-31T16:06:18+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438329978') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0025s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438329978','1438329978') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:07:06+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0048s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330025') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330025','1438330025') [ RunTime:0.0003s ]
+
+[ 2015-07-31T16:07:14+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330034') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0030s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330034','1438330034') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:08:06+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0052s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330086') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0052s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330086','1438330086') [ RunTime:0.1391s ]
+
+[ 2015-07-31T16:11:04+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330264') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0025s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330264','1438330264') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:11:19+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330279') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0029s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330279','1438330279') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hard_relation` (`hid`,`uid`,`status`,`timeline`) VALUES ('0','13','1','1438330279') [ RunTime:0.0279s ]
+
+[ 2015-07-31T16:13:45+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330425') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0031s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330425','1438330425') [ RunTime:0.2380s ]
+
+[ 2015-07-31T16:13:48+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330428') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0028s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330428','1438330428') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:13:49+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330429') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0026s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330429','1438330429') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:13:49+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330429') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0024s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330429','1438330429') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:13:49+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330429') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0029s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330429','1438330429') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:13:50+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330430') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0062s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330430','1438330430') [ RunTime:0.0004s ]
+
+[ 2015-07-31T16:13:50+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330430') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0029s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330430','1438330430') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:13:50+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330430') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0026s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330430','1438330430') [ RunTime:0.0002s ]
+
+[ 2015-07-31T16:13:57+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: INSERT INTO `user` (`username`,`password`,`name`,`timeline`) VALUES ('12121212','9e270010f6590c3b181b15a69f920ac0','','1438330437') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0056s ]
+SQL: INSERT INTO `userinfo` (`headimg`,`sex`,`tag`,`uptime`,`timeline`) VALUES ('0','0','0','1438330437','1438330437') [ RunTime:0.0004s ]
+
+[ 2015-07-31T16:14:21+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-31T16:14:37+08:00 ] 127.0.0.1 /index.php/user/region?username=12121212&password=1212121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE ( username=12121212 ) LIMIT 1   [ RunTime:0.0003s ]
+

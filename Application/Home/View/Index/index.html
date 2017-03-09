@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>WebSocket Test</title>
+<script language="javascript"type="text/javascript">
+    var wsUri ="ws://127.0.0.120:8080/index.php/home/index/ws";
+    var output;
+    var socket=new WebSocket($wsUri);
+    socket.onopen=function(event){
+        socket.send("i am wangfuxu");
+        socket.onmessage=function(event){
+           alert(event);
+        }
+    }
+
+</script>
+<h2>WebSocket Test</h2>
+<div id="output"></div>
+</html>

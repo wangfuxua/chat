@@ -1,0 +1,2484 @@
+@charset "utf-8";
+
+* {
+	font-family: "微软雅黑";
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul,ol,li {
+	list-style: none;
+}
+.bg_yellow {
+	background-color: #f49800;
+}
+.yellow {
+	color: #f49800;
+}
+.bg_e {
+	background-color: #eee;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+.inline_block {
+	display: inline-block;
+}
+.noPadding {
+	padding: 0;
+}
+.f_l {
+	float: left;
+}
+.f_r {
+	float: right;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+
+.flex_box_wrapper_h {
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	display: -ms-flexbox;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-ms-box-orient: horizontal;
+	box-orient: horizontal;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+.flex_box_wrapper_v {
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	display: -ms-flexbox;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-ms-box-orient: vertical;
+	box-orient: vertical;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.flex_box_fixed {
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+}
+.flex_box_auto {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.grayBtn {
+	display: block;
+	height: 40px;
+	line-height: 38px;
+	text-align: center;
+	margin: 40px 10px 80px;
+	border-radius: 5px;
+	background-color: #e0e0e0;
+	border: 1px solid #c5c5c5;
+	color: #666;
+	font-size: 14px;
+}
+.grayBtn:active {
+	background-color: #d3d3d3;
+}
+
+
+/***** splash *****/
+#splashscreen img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 320px;
+	height: 480px;
+	margin: -240px 0 0 -160px;
+}	
+
+
+#cajian .panel,
+#subview .panel {
+	padding: 0;
+}
+
+/***** main view ****/
+.mainIcon_container {
+	padding-top: 20px;
+	text-align: right;
+}
+.mainIcon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 0 8px;
+}
+.mainIcon:active {
+	opacity: .7;
+}
+.icon_img_wrapper:active {
+	opacity: .7;
+}
+.icon_img {
+	width: 24px;
+	height: 24px;
+}
+#mainMsg_badge {
+	display: block;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 2px;
+	min-width: 20px;
+	max-width: 29px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #ff5f5f;
+	color: #fff;
+	font-size: 12px;
+}
+
+
+.user_info {
+	position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.headerImg_wrap {
+	border-radius: 50%;
+	padding: 10px;
+}
+.headerImg_wrap1 {
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	background-color: rgba(246,173,51,.4);
+}
+.headerImg_wrap2 {
+	width: 160px;
+	height: 160px;
+	background-color: rgba(246,189,92,.4);
+}
+.headerImg_wrap3 {
+	width: 140px;
+	height: 140px;
+	background-color: rgba(246,202,125,.4);
+}
+.user_headerImg {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.user_nickname {
+	padding: 20px 10px 10px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+}
+.bottom_tab {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+.user_tab_list {
+	display: inline-block;
+	margin: 0 10px;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	line-height: 36px;
+	text-decoration: none;
+}
+.user_tab_list:active {
+	background-color: #e79001;
+}
+
+@media(max-height: 736px) and (min-height: 569px) {
+	.user_nickname {
+		padding-top: 35px;
+	}
+	#notFriend .notFriend_reng_wrapper  {
+		margin-top: 40px;
+	}
+}
+
+@media(max-height: 480px ) {
+	.user_info {
+		top: 50px;
+	}
+	.user_nickname {
+		padding-top: 15px;
+	}
+	#notFriend .notFriend_reng_wrapper  {
+		margin-top: 10px;
+	}
+}
+
+/******* tabMask *******/
+.custom_mask {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 998;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+/******* tabBtn *******/
+#tabBtn_wrapper {
+	display: none;
+	position: absolute;
+	right: 10px;
+	bottom: 40px;
+	z-index: 999;
+	width: 40px;
+	height: auto;
+}
+.tabBtn {
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	text-align: center;
+}
+.tabBtn:active {
+	opacity: .7;
+}
+.tabBtn_menu {
+	right: 0;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	background-color: rgba(0,0,0,.9);
+}
+
+.tabBtn_item {
+	right: 3px;
+	bottom: 3px;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	background-color: #fff;
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.tabBtn_open #tabBtn_bluetooth {
+	bottom: 205px;
+}
+.tabBtn_open #tabBtn_cajian {
+	bottom: 165px;
+}
+.tabBtn_open #tabBtn_faxian {
+	bottom: 125px;
+}
+.tabBtn_open #tabBtn_haoyou {
+	bottom: 85px;
+}
+.tabBtn_open #tabBtn_xiaoxi {
+	bottom: 45px;
+}
+.tabBtn_open .tabBtn_item {
+	opacity: 1;
+}
+.tabBtn_open .tabIcon_menu {
+	display: none;
+}
+.tabIcon {
+	width: 24px;
+	height: 24px;
+	margin-top: 5px;
+}
+.tabBtn_menu .tabIcon {
+	margin-top: 8px;
+}
+
+/********* 自定义header ***********/
+.custom_header {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	z-index: 250;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 44px;
+	border: none;
+	left: 0;
+	right: 0;
+	background: #f39800;
+}
+.header_btn {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50px;
+	height: 44px;
+	padding-top: 10px;
+	text-align: center;
+}
+.setup_btn,
+.fujin_btn {
+	right: 0;
+}
+.header_okBtn {
+	top: 8px;
+	right: 10px;
+	height: 28px;
+	width: 46px;
+	padding: 0;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	line-height: 28px;
+	color: #fff;
+}
+.header_okBtn:active {
+	background-color: #FFA103;
+}
+.custom_header_title {
+	position: absolute;
+	width: 45%;
+	z-index: 1;
+	height: 44px;
+	padding: 0;
+	font-size: 14px;
+	left: 27.5%;
+	color: #fff;
+	line-height: 44px;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+
+
+/********** 擦肩 **********/
+.transition {
+	-webkit-transition: transform .2s linear;
+	transition: transform .2s linear;
+}
+
+.header_user {
+	height: 130px;
+	padding: 10px 10px 0;
+	text-align: center;
+}
+.header_user_a.header_btn {
+	width: 50px;
+	height: 44px;
+	padding-top: 5px;
+}
+.custom_header .header_user_img {
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+}
+.header_user_a,
+.header_user_img {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.header_user_name {
+	color: #fff;
+}
+.header_user_sex {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	margin-left: 5px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.header_user_sex.sex1 {
+	background: url(../img/man.png) 4px 4px #6eb8f5 no-repeat;
+	background-size: 16px;
+}
+.header_user_sex.sex2 {
+	background: url(../img/woman.png) 4px 4px #fd9cae no-repeat;
+	background-size: 16px;
+}
+#cajianContainer {
+	position:absolute; 
+	top:44px; 
+	left: 0; 
+	bottom: 0; 
+	width: 100%; 
+	/*background: #999;*/
+}
+.cajianList {
+	background-color: #fff;
+}
+.cajianList_li {
+	height: 70px;
+	/*padding: 13px 0;*/
+	margin: 0 10px;
+	/*border-bottom: 1px solid #ccc;*/
+}
+/*.cajianList_li:last-child {
+	border: none;
+}*/
+.cajianList_a {
+	display: block;
+	/*height: 44px;*/
+	padding: 0 10px;
+	margin: 0 -10px;
+	color: #000;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	display: -ms-flexbox;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-ms-box-orient: horizontal;
+	box-orient: horizontal;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+.cajianList_a:active {
+	background-color: #eee;
+}
+.cajianList_name {
+	height: 70px;
+	padding: 13px 30px 13px 0;
+	margin: 0;
+	border-bottom: 1px solid #f5f5f5;
+
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.cajianList_name p {
+	margin: 0;
+	overflow: hidden;
+}
+.cajianList_nickName {
+	height: 26px;
+	/*line-height: 25px;*/
+}
+.cajianList_times {
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #979797;
+}
+.cajianList_headerImg {
+	width: 44px;
+	height: 44px;
+	margin: 13px 8px 13px 0;
+	border-radius: 50%;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+}
+.cajianList_add,
+.cajianList_msg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 44px;
+	height: 70px;
+	padding-top: 22px;
+	text-align: right;
+}
+.cajianList_add:active {
+	opacity: .7;
+}
+
+/****** 发现 *******/
+.discover_searchWrapper {
+	background-color: #fff;
+}
+.discover_searchTips {
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #909090;
+	background-color: #fff;
+}
+.discover_tipsImg {
+	width: 22px;
+	vertical-align: middle;
+}
+.discover_search {
+	/*border: none!important;*/
+	outline: none!important;
+	/*margin-bottom: 0!important;*/
+}
+.discover_jian {
+	position: absolute;
+	top: 130px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	overflow: auto;
+}
+.discover_jian_list {
+	padding: 10px 0;
+	margin: 0 10px;
+	border-bottom: 1px solid #f39800;
+}
+.discover_jian_list:last-child {
+	border: none;
+}
+.discover_jian_list_headerWrapper {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.discover_jian_list_header {
+	width: 50px;
+	height: 50px;
+}
+.discover_jian_list_cont {
+	padding-left: 10px;
+}
+.dj_list_name {
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.dj_list_share {
+	display: block;
+	position: relative;
+	height: 50px;
+	padding: 5px 5px 5px 50px;
+	line-height: 40px;
+	background-color: #dcdcdc;
+	overflow: hidden;
+}
+.dj_list_share span {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.dj_list_share_text{
+	height: auto;
+	line-height: 30px;
+	padding-left: 5px;
+}
+.dj_list_share:active {
+	background-color: #c8c8c8;
+}
+.dj_list_share_img {
+	position: absolute;
+	top: 5px;
+	left:  5px;
+	width: 40px;
+	height: 40px;
+}
+.dj_list_bottom {
+	padding-top: 5px;
+	font-size: 12px;
+}
+
+/**** 扔 *****/
+.discover_reng {
+	/*display: none;*/
+	padding:10px;
+}
+.button_container {
+	width: 100%;
+	/*margin-top: 30px;*/
+}
+.btn_reng {
+	width: 100%;
+	border-radius: 5px;
+	background-color: #f39800;
+	border-color: #f39800;
+	color: #fff;
+}
+#discover_reng_link {
+	resize: none;
+}
+#discover_reng_cancelBtn {
+	color: #333;
+}
+
+/***** 附近 ****/
+#discover_near {
+	background:url(../img/near_bg.jpg) no-repeat;
+}
+.discover_near_leida {
+	position: absolute;
+	top: 44px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+}
+.discover_near_leidaImg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 500px;
+	margin: -240px 0 0 -240px;
+	-webkit-animation: rotate 5s linear infinite;
+	animation: rotate 5s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+	%0 {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotate {
+	%0 {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);	
+	}
+}
+
+.dn_people {
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.dn_myself {
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	margin: -25px 0 0 -25px;
+	border: 2px solid #fff;
+}
+.dn_people_headerImg {
+	width: 100%;
+	height: 100%;
+}
+
+@media(max-height: 568px) {
+	.discover_near_leidaImg {
+		width: 460px;
+		height: 460px;
+		margin: -220px 0 0 -230px;
+		-webkit-animation: rotate 5s linear infinite;
+		animation: rotate 5s linear infinite;
+	}
+}
+
+@media(max-height: 500px) {
+	.discover_near_leidaImg {
+		width: 400px;
+		height: 400px;
+		margin: -190px 0 0 -200px;
+		-webkit-animation: rotate 5s linear infinite;
+		animation: rotate 5s linear infinite;
+	}
+}
+
+/************ 设置 ************/
+.setup_account_list { 
+	position: relative;
+	margin-top: 30px;
+}
+.setup_account_list:first-child {
+	margin-top: 0;
+}
+.setup_account {
+	display: block;
+	padding: 10px 130px 10px 10px;
+	height: 60px;
+	line-height: 40px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.setup_account:active {
+	background-color: #f3f3f3;
+}
+.setup_account_inner {
+	position: relative;
+	height: 40px;
+	padding: 0 30px 0 50px;
+	background: url(../img/account_sub_icon.png) right center no-repeat;
+	background-size: 12px auto;
+}
+.setup_account_img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.setup_labelWrapper {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 80px;
+	height: 60px;
+}
+.setup_label {
+	position: absolute!important;
+	top: 10px;
+	right: 10px;
+	left: auto!important;
+}
+input.toggle:checked + label {
+	background: #4bd963;
+}
+input.toggle + label {
+	width: 55px;
+}
+input.toggle + label > span {
+	width: 31px;
+	background:#fff;
+	border: 1px solid #ccc;
+	left: -1px;
+}
+input.toggle:checked + label > span {
+  transform: translate3d(24px, 0, 0);
+  -webkit-transform: translate3d(24px, 0, 0);
+}
+
+.setup_account_num {
+	height: 50px;
+	margin-top: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #fff;
+}
+
+#signOut {
+	margin-top: 30px;
+}
+
+
+/************* 个人信息 *************/
+.personal_listWrapper {
+	position: absolute;
+	top: 44px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.personal_list {
+	margin: 0 10px;
+	border-bottom: 1px solid #efddbe;
+	background: url(../img/account_sub_icon.png) right center no-repeat;
+	background-size: 12px auto;
+}
+.personal_list_inner {
+	display: block;
+	padding:10px;
+	margin: 0 -10px;
+	height: 60px;
+	line-height: 40px;
+	background-size: 12px auto;
+}
+.personal_list_innerSubIcon {
+	padding-right: 30px;
+}
+.personal_list_cont {
+	display: block;
+	float: right;
+	max-width: 200px;
+	text-align: right;
+	overflow: hidden;
+}
+.personal_list:active .personal_list_inner {
+	background-color: #ddd;
+}
+.personal_list_label {
+	color: #666;
+}
+.personal_list_headerImgNow {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+#personal_form,
+.personal_headerImg {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+/*** 性别 ***/
+.personal_popup {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+}
+.personal_sex_select {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 220px;
+	height: 150px;
+	padding: 10px;
+	margin: -75px 0 0 -110px;
+	border-radius: 4px;
+	background-color: #fff;
+}
+.personal_popup_title {
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: 800;
+}
+.personal_sex_item {
+	display: block;
+	margin: 0 5px;
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+	line-height: 40px;
+}
+.personal_sex_item:last-child {
+	border-bottom: none;
+}
+.personal_sex_item:active {
+	background-color: #ccc;
+}
+.sex_selected {
+	background: url(../img/checkOn_icon.png) right center no-repeat;
+	background-size: 20px auto;
+}
+/**** 签名 ****/
+.personal_signature_box,
+.personal_nickName_box {
+	padding: 54px 10px 10px;
+}
+#personal_signature_input,
+#personal_nickName_input {
+	resize: none;
+}
+#personal_signature_cancelBtn {
+	margin: 20px 0;
+}
+.common_btn {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+.common_btn:active {
+	background-color: #eee;
+}
+
+/**** 标签 ****/
+.personal_labelWrapper {
+	padding: 0 10px;
+	line-height: 30px;
+	border-bottom: 1px solid #efddbe;
+	background-color: #fff;
+}
+.personal_label {
+	position: relative;
+	display: inline-block;
+	height: 22px;
+	padding: 0 8px;
+	line-height: 22px;
+	border-radius: 12px;
+	margin: 8px 3px;
+	font-size: 12px;
+	background-color: #68ae32;
+	color: #fff;
+}
+.personal_label:active {
+	background-color: #6FA32C;
+}
+
+/********* 标签选择页 *********/
+.personalLabel_inner {
+	padding: 0 10px 10px;
+}
+.personalLabel_inner h3 {
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+}
+.personalLabel_sec {
+	margin: 0 -10px;
+	padding: 0 10px;
+	border-bottom: 1px solid #ddd;
+	background-color: #eee;
+}
+.personalLabel_inner .personal_label {
+	margin: 8px 10px;
+}
+.label_checked_icon {
+	display: none;
+	position: absolute;
+	right: -10px;
+	bottom: -5px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: url(../img/label_checked.png) center center #f22 no-repeat;
+	background-size: 12px 12px;
+}
+.label_checked .label_checked_icon {
+	display: block;
+}
+#personalLabel_addBtn {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+
+/**** 设置隐身 ***/
+
+.personal_hide_toggleWrapper {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 50px;
+	width: 60px;
+}
+.personal_hide {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 10px;
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+
+
+
+/*********** 未加好友 *********/
+
+.topIcon_container {
+	padding: 20px 10px 0;
+	text-align: left;
+}
+.backIcon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+.notFriend_tab_list {
+	display: inline-block;
+	margin: 0 15px;
+	width: 36px;
+	height: 36px;
+	padding-top:6px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background-color: #fff;
+	text-decoration: none;
+}
+.notFriend_reng_wrapper {
+	margin-top: 20px;
+}
+.notFriend_reng {
+	display: block;
+	padding: 10px 20px;
+	background-color: rgba(0,0,0,.5);
+	text-align: left;
+}
+.notFriend_reng:active {
+	background-color: rgba(0,0,0,.7);
+}
+.notFriend_reng_img {
+	top: 10px;
+	left: 20px;
+	width: 40px;
+	height: 40px;
+}
+.notFriend_reng_cont {
+	padding-left: 50px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	overflow: hidden;
+}
+.notFriend_reng_cont p {
+	margin: 0;
+	overflow: hidden;
+}
+.notFriend_reng_title {
+	height: 25px;
+	font-size: 14px;
+}
+.notFriend_reng_dateTime {
+	height: 15px;
+	line-height: 15px;
+	font-size: 12px;
+	color: #ccc;
+}
+
+/********* 聊天 ********/
+.talking_panel {
+	background-color: #eee;
+}
+.talking_msgSend {
+	padding: 10px;
+}
+.talking_msgRecive {
+	padding: 10px;
+}
+.talking_msgSend .talking_header,
+.talking_msgSend .talking_msgBox {
+	float: right;
+}
+.talking_msgSend .talking_msgBox {
+	margin-right: 5px;
+}
+.talking_msgRecive .talking_header,
+.talking_msgRecive .talking_msgBox {
+	float: left;
+}
+.talking_msgRecive .talking_msgBox {
+	margin-left: 5px;
+	background-color: #ffcf80;
+}
+
+.talking_header {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.talking_msgBox {
+	display: inline-block;
+	padding: 10px;
+	max-width: 200px;
+	border-radius: 5px;
+	line-height: 22px;
+	background-color: #fff;
+	color: #000;
+}
+.talking_panel {
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	bottom: 44px;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.custom_footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 44px;
+	padding: 5px 5px 0;
+	z-index: 250;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #f39800;
+}
+.talking_bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.talking_msgToSend {
+	height: 34px;
+	padding: 5px;
+	margin: 0;
+	resize: none;
+}
+.talking_input_wrapper {
+	padding-right: 90px;
+	height: 39px;
+}
+.talking_bottom_btn {
+	position: absolute;
+	top: 6px;
+	width: 32px;
+	height: 32px;
+	padding-top: 4px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+}
+.face_btn {
+	right: 53px;
+}
+.add_btn {
+	right: 10px;
+}
+.send_btn {
+	display: none;
+	right: 5px;
+	width: 40px;
+	padding: 0;
+	border-radius: 5px;
+	line-height: 32px;
+	color: #000;
+}
+#faceAndTrue {
+	display: none;
+	height: 146px;
+}
+
+#face_panel,
+#true_panel {
+	display: none;
+	position: relative;
+	height: 146px;
+	padding-top: 5px;
+	margin: 0 -5px;
+	background-color: #fff;
+	overflow: hidden;
+}
+#true_panel {
+	padding: 5px 10px;
+}
+.true_panel_btn {
+	display: inline-block;
+	width: 64px;
+	height: 90px;
+	margin: 5px 10px 0 0;
+	text-align: center;
+	vertical-align: top;
+}
+.true_panel_icon {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 40px;
+	line-height: 50px;
+	background-color: #F39800;
+	color: #fff;
+
+}
+.true_panel_txt {
+	font-size: 12px;
+}
+.true_answer_wrapper {
+	padding-top: 1px;
+}
+.true_answer_btn {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #ddd;
+}
+.true_answer_btn:active {
+	background-color: #ccc;
+}
+
+.face_panel_inner {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 400%;
+	height: 100%;
+}
+.face_panel_label {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.face_label {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin: 0 3px;
+	border-radius: 50%;
+	background-color: #aaa;
+}
+.face_label_on {
+	background-color: #F39800;
+}
+.face_panel_li {
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.face_wrapper {
+	float: left;
+	width: 12.5%;
+	height: 37px;
+	text-align: center;
+}
+#face_panel .face {
+	margin-bottom: 5px;
+}
+
+.delete_face,
+.face {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+}
+.talking_msgBox .face {
+	width: 22px;
+	height: 22px;
+	background-size: 22px 22px;
+}
+.delete_face {
+	background-image: url(../img/delete_face.png);
+}
+.delete_face:active,
+.face:active {
+	background-color: #ddd;
+}
+
+.angry {
+	background-image: url(../img/emoji/angry.png);
+}
+.coldSweatL {
+	background-image: url(../img/emoji/coldSweatL.png);
+}
+.coldSweatS {
+	background-image: url(../img/emoji/coldSweatS.png);
+}
+.confounded {
+	background-image: url(../img/emoji/confounded.png);
+}
+.crying {
+	background-image: url(../img/emoji/crying.png);
+}
+.cryingSaid {
+	background-image: url(../img/emoji/cryingSaid.png);
+}
+.disappointed {
+	background-image: url(../img/emoji/disappointed.png);
+}
+.dizzy {
+	background-image: url(../img/emoji/dizzy.png);
+}
+.fear {
+	background-image: url(../img/emoji/fear.png);
+}
+.flushed {
+	background-image: url(../img/emoji/flushed.png);
+}
+.grinning {
+	background-image: url(../img/emoji/grinning.png);
+}
+.heartEyes {
+	background-image: url(../img/emoji/heartEyes.png);
+}
+.kiss {
+	background-image: url(../img/emoji/kiss.png);
+}
+.kissing {
+	background-image: url(../img/emoji/kissing.png);
+}
+.loudlyCry {
+	background-image: url(../img/emoji/loudlyCry.png);
+}
+.mask {
+	background-image: url(../img/emoji/mask.png);
+}
+.pensive {
+	background-image: url(../img/emoji/angry.png);
+}
+.persevering {
+	background-image: url(../img/emoji/pensive.png);
+}
+.pouting {
+	background-image: url(../img/emoji/pouting.png);
+}
+.relieved {
+	background-image: url(../img/emoji/relieved.png);
+}
+.screaming {
+	background-image: url(../img/emoji/screaming.png);
+}
+.sleep {
+	background-image: url(../img/emoji/sleep.png);
+}
+.smiling {
+	background-image: url(../img/emoji/smiling.png);
+}
+/****** 第一屏 end ******/
+
+.smilingEyesS {
+	background-image: url(../img/emoji/smilingEyesS.png);
+}
+.smillingEyesL {
+	background-image: url(../img/emoji/smillingEyesL.png);
+}
+.smirking {
+	background-image: url(../img/emoji/smirking.png);
+}
+.tearsJoy {
+	background-image: url(../img/emoji/tearsJoy.png);
+}
+.tongue {
+	background-image: url(../img/emoji/tongue.png);
+}
+.unamused {
+	background-image: url(../img/emoji/unamused.png);
+}
+.whiteSmiling {
+	background-image: url(../img/emoji/whiteSmiling.png);
+}
+.winking {
+	background-image: url(../img/emoji/winking.png);
+}
+.winkingTongue {
+	background-image: url(../img/emoji/winkingTongue.png);
+}
+.alien {
+	background-image: url(../img/emoji/alien.png);
+}
+.imp {
+	background-image: url(../img/emoji/imp.png);
+}
+.ghost {
+	background-image: url(../img/emoji/ghost.png);
+}
+.babyChick {
+	background-image: url(../img/emoji/babyChick.png);
+}
+.bear {
+	background-image: url(../img/emoji/bear.png);
+}
+.bird {
+	background-image: url(../img/emoji/bird.png);
+}
+.boar {
+	background-image: url(../img/emoji/boar.png);
+}
+.bug {
+	background-image: url(../img/emoji/bug.png);
+}
+.camel {
+	background-image: url(../img/emoji/camel.png);
+}
+.chicken {
+	background-image: url(../img/emoji/chicken.png);
+}
+.cow {
+	background-image: url(../img/emoji/cow.png);
+}
+.dog {
+	background-image: url(../img/emoji/dog.png);
+}
+.dolphin {
+	background-image: url(../img/emoji/dolphin.png);
+}
+.elephant {
+	background-image: url(../img/emoji/elephant.png);
+}
+/******* 第二屏 end ******/
+
+.fish {
+	background-image: url(../img/emoji/fish.png);
+}
+.frog {
+	background-image: url(../img/emoji/frog.png);
+}
+.hamster {
+	background-image: url(../img/emoji/hamster.png);
+}
+.koala {
+	background-image: url(../img/emoji/koala.png);
+}
+.monkey {
+	background-image: url(../img/emoji/monkey.png);
+}
+.mouse {
+	background-image: url(../img/emoji/mouse.png);
+}
+.octopus {
+	background-image: url(../img/emoji/octopus.png);
+}
+.penguin {
+	background-image: url(../img/emoji/penguin.png);
+}
+.pig {
+	background-image: url(../img/emoji/pig.png);
+}
+.rabbit {
+	background-image: url(../img/emoji/rabbit.png);
+}
+.sheep {
+	background-image: url(../img/emoji/sheep.png);
+}
+.snake {
+	background-image: url(../img/emoji/snake.png);
+}
+.tiger {
+	background-image: url(../img/emoji/tiger.png);
+}
+.whale {
+	background-image: url(../img/emoji/whale.png);
+}
+.wolf {
+	background-image: url(../img/emoji/wolf.png);
+}
+.heart {
+	background-image: url(../img/emoji/heart.png);
+}
+.brokenHeart {
+	background-image: url(../img/emoji/brokenHeart.png);
+}
+.clapping {
+	background-image: url(../img/emoji/clapping.png);
+}
+.pray {
+	background-image: url(../img/emoji/pray.png);
+}
+.raisedFist {
+	background-image: url(../img/emoji/raisedFist.png);
+}
+.thumbsUp {
+	background-image: url(../img/emoji/thumbsUp.png);
+}
+.victory {
+	background-image: url(../img/emoji/victory.png);
+}
+.swimmer {
+	background-image: url(../img/emoji/swimmer.png);
+}
+/******* 第三屏 end ******/
+
+.americanFootball {
+	background-image: url(../img/emoji/americanFootball.png);
+}
+.baseball {
+	background-image: url(../img/emoji/baseball.png);
+}
+.basketball {
+	background-image: url(../img/emoji/basketball.png);
+}
+.billiards {
+	background-image: url(../img/emoji/billiards.png);
+}
+.soccer {
+	background-image: url(../img/emoji/soccer.png);
+}
+.tennisBall {
+	background-image: url(../img/emoji/tennisBall.png);
+}
+.apple {
+	background-image: url(../img/emoji/apple.png);
+}
+.orange {
+	background-image: url(../img/emoji/orange.png);
+}
+.strawberry {
+	background-image: url(../img/emoji/strawberry.png);
+}
+.tomato {
+	background-image: url(../img/emoji/tomato.png);
+}
+.watermelon {
+	background-image: url(../img/emoji/watermelon.png);
+}
+.beer {
+	background-image: url(../img/emoji/beer.png);
+}
+.birthdayCake {
+	background-image: url(../img/emoji/birthdayCake.png);
+}
+.coffee {
+	background-image: url(../img/emoji/coffee.png);
+}
+.fires {
+	background-image: url(../img/emoji/fires.png);
+}
+.iceCreame {
+	background-image: url(../img/emoji/iceCreame.png);
+}
+.noodles {
+	background-image: url(../img/emoji/noodles.png);
+}
+.rice {
+	background-image: url(../img/emoji/rice.png);
+}
+.shavedIce {
+	background-image: url(../img/emoji/shavedIce.png);
+}
+.shortcake {
+	background-image: url(../img/emoji/shortcake.png);
+}
+.spaghetti {
+	background-image: url(../img/emoji/spaghetti.png);
+}
+.kissMark {
+	background-image: url(../img/emoji/kissMark.png);
+}
+.rose {
+	background-image: url(../img/emoji/rose.png);
+}
+/******* 第四屏 end ******/
+
+
+/************** 编辑真心话 ****************/
+#custom_true {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.custom_true_inner {
+	padding: 0 10px;
+}
+.custom_true_title {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 40px;
+}
+#custom_true_question {
+	resize: none;
+}
+.custom_true_titleWrapper {
+	position: relative;
+	height: 42px;
+	margin: 0 -10px;
+	padding: 0 10px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+#custom_true_addQuestion {
+	display: block;
+	position: absolute;
+	top: 6px;
+	right: 10px;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 5px;
+	border-radius: 3px;
+	background-color: #F39800;
+	color: #fff;
+}
+.custom_true_answerWrapper {
+	padding-top: 5px;
+}
+.custom_true_subTitle {
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+
+
+
+
+/******** 好友列表 ********/
+.myFriend_searchBox {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+#myFriend_listBox {
+	position: absolute;
+	top: 105px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow-y: auto;
+	background-color: #fff;
+}
+#myFriend_searchResult {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.myFriend_search_tips {
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #929292;
+}
+.myFriend_search_cont {
+	margin-bottom: 0!important;
+}
+.myFriend_search_icon {
+	width: 20px;
+	vertical-align: middle;
+}
+.message_box {
+	position: absolute;
+	top: 44px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow-y: auto;
+}
+.myFriend_list,
+.message_list {
+	margin: 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+.myFriend_list:last-child,
+.message_list:last-child {
+	border: none;
+}
+.myFriend_list_a,
+.message_list_a {
+	display: block;
+	padding: 8px 10px;
+	margin: 0 -10px;
+}
+.myFriend_list_a:active,
+.message_list_a:active {
+	background-color: #ddd;
+}
+.myFriend_list_headerImg,
+.message_list_headerImg {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	vertical-align: top;
+}
+.myFriend_list_name {
+	display: inline-block;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	line-height: 40px;
+	color: #000;
+}
+.myFriend_msgCount {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 4px;
+	border-radius: 10px;
+	float: right;
+	margin-top: 10px;
+	font-size: 12px;
+	background-color: #F24B4B;
+	color: #fff;
+}
+
+.btnCancelSearch {
+	display: none;
+	position: absolute;
+	top:15px;
+	right: 15px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	border-radius: 15px;
+	background-color: #ddd;
+	color: #fff;
+}
+.btnCancelSearch:active {
+	background-color: #ccc;
+}
+
+
+/********* 消息列表页 ********/
+.message_ul {
+	/*position: absolute;
+	top:44px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow-y: auto;*/
+}
+.message_list_a {
+	position: relative;
+}
+.message_list_a:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.message_list_userHeader {
+	float: left;
+	position: relative;
+}
+.message_list_headerBadge {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	padding: 2px;
+	min-width: 20px;
+	max-width: 29px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #ff5f5f;
+	color: #fff;
+	font-size: 12px;
+}
+.message_list_userInfo {
+	float: left;
+	padding: 0 40px 0 15px;
+	max-width: 255px;
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.message_list_userInfo p {
+	margin: 0;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.message_list_lastMsg {
+	color: #444;
+	font-size: 12px;
+}
+.message_list_time {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	width: 40px;
+	height: 40px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #888;
+	text-align: right;
+}
+
+/************* 好友请求页面 **************/
+.request_friend_cont {
+	padding: 10px;
+}
+.request_friend_txt {
+	padding: 20px 0;
+}
+.request_friend_btn {
+	display: block;
+	width: 45%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+}
+.request_friend_btn.f_l {
+	background-color: #ddd;
+}
+.request_friend_btn.f_r {
+	background-color: #f39800;
+	color: #fff;
+}
+.request_friend_btn.f_l:active {
+	background-color: #ccc;
+}
+.request_friend_btn.f_r:active {
+	background-color: #E59003;
+}
+.regi_bind_list {
+	display: none;
+	height: 40px;
+	line-height: 40px;
+}
+.regi_info,
+.regi_bind {
+	display: none;
+}
+
+.regi_sex_box {
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.regi_sex_item {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background-color: #ddd;
+}
+
+.regi_sex_item.man.regiSexSelected {
+	background-color: #6eb8f5;
+}
+.regi_sex_item.woman.regiSexSelected{
+	background-color: #fd9cae;
+}
+.regi_sex_item img{
+	height: 18px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+
+/************** 登录 **************/
+.login_cont,
+.regi_cont {
+	padding: 0 10px;
+}
+.login_btn,
+.regi_btn {
+	display: block;
+	height: 40px;
+	margin-top: 20px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #f49800;
+	color: #fff;
+}
+.login_btn:active,
+.regi_btn:active {
+	background-color: #DB8A02;
+}
+
+.regi_bind_bindBtn {
+	display: none;
+}
+
+.regi_tips {
+	display: none;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #f33;
+	border-radius: 5px;
+	color: #f33;
+	text-align: center;
+}
+#login_tipPhoneNum {
+	display: none;
+	margin-top: -11px;
+	padding: 5px;
+	height: 40px;
+	line-height: 30px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+
+
+
+/********* 加好友之后 **********/
+.friendPage_cont {
+	position: absolute;
+	top: 44px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: auto;
+}
+.friendPage_list {
+	position: relative;
+	padding: 10px 10px 10px 75px;
+}
+.friendPage_list_a,
+.friendPage_list_p {
+	display: block;
+	padding: 6px;
+	height: 52px;
+	background-color: #ddd;
+	border-radius: 5px;
+	font-size: 12px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.friendPage_list_p {
+	height: auto;
+	margin: 0;
+	line-height: 22px;
+}
+.friendPage_list_a:active {
+	background-color: #ccc;
+}
+.friendPage_list_dateTime {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 60px;
+}
+.friendPage_toTalking {
+	position: absolute;
+	bottom: 40px;
+	left: 10px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	padding-top:8px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: rgba(0,0,0,.8);
+	text-decoration: none;
+}
+.dateTime_last,
+.dateTime_day {
+	font-size: 22px;
+	font-weight: 800;
+}
+.dateTime_month {
+	font-size: 12px;
+}
+.friendPage_list_content {
+	position: relative;
+	padding-left: 45px;
+}
+.fp_list_imgWrapper,
+.dj_list_imgWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+.fp_list_img,
+.dj_list_img {
+	width: 100%;
+	vertical-align: middle;
+}
+.fp_list_title,
+.dj_list_title {
+	height: 40px;
+	line-height: 40px;
+	text-overflow: ellipsis;
+  	white-space: nowrap;
+	overflow: hidden;
+}
+.friendPage_list_operate {
+	padding-top: 5px;
+}
+.fp_operate_btnWrapper,
+.dj_operate_btnWrapper {
+	float: right;
+	padding: 0 5px;
+}
+.fp_operate_btn,
+.dj_operate_btn {
+	display: inline-block;
+}
+.fp_operate_icon,
+.dj_operate_icon {
+	width: 22px;
+	vertical-align: middle;
+}
+.fp_operate_btnTimes,
+.dj_operate_btnTimes {
+	font-size: 12px;
+}
+.fp_operate_btn_clicked .fp_operate_icon,
+.dj_operate_btn_clicked .dj_operate_icon {
+	-webkit-animation: zoomIn .4s linear;
+	animation: zoomIn .4s linear;
+}
+
+
+.zoomIn {
+	-webkit-animation: zoomIn .3s linear;
+	animation: zoomIn .3s linear;
+}
+@-webkit-keyframes zoomIn {
+	0% {
+		-webkit-transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.3);
+	}
+	100% {
+		-webkit-transform: scale(1);
+	}
+}
+@keyframes zoomIn {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.3);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+/**************** 好友兴趣 ********************/
+.friendHobby_cont {
+	padding: 10px;
+}
+
+
+/********** 捡到的详情页 *********/
+.pickDetail_iframeWrapper {
+	position: absolute;
+	top: 44px;
+	left: 0;
+	bottom: 44px;
+	width: 100%;
+	overflow: auto;
+}
+#pickDetail_iframe {
+	border:none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.pickDetail_footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 44px;
+	border-top: 1px solid #aaa;
+	background-color: #fff;
+}
+.pickDetail_footer_btn {
+	display: block;
+	float:left;
+	width: 33.333%;
+	text-align: center;
+	line-height: 43px;
+	color: #f39800;
+}
+.pickDetail_footer_zanBtn {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.pickDetail_footer a:active {
+	background-color: #ddd;
+}
+.pickDetail_footer_icon {
+	width: 24px;
+	vertical-align: middle;
+}
+
+
+/***** 转发 *****/
+.zhuanfaBtn_wrapper:active {
+	opacity: .7;
+}
+#zhuanfa_select {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+	width: 200px;
+	height: 120px;
+	margin: -60px 0 0 -100px;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #fff;
+}
+.zhuanfa_select_item {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.zhuanfa_select_item:active {
+	background-color: #eee;
+}
+
+
+
+/********* 转扔出去 ********/
+.zhuanReng_inner {
+	padding: 10px;
+}
+#zhuanReng_title {
+	border: 1px solid #ccc!important;
+}
+#zhuanReng_link {
+	margin-top: 10px;
+	outline: none;
+	resize: none;
+	color: #999;
+}
+.zhuanReng_btn_container .btn_reng {
+	background-color: #f39800;
+	border: 1px solid #f39800;
+	color: #fff;
+}
+.zhuanReng_btn_container .btn_reng:active {
+	background-color: #E48F01;
+}
+.zhuanReng_btn_container .btn_cancel {
+	background-color: #B2B2B2;
+	border-color: #B2B2B2;
+	color: #fff;
+}
+.zhuanReng_btn_container .btn_cancel:active {
+	background-color: #979797;
+}
+
+/******** 转发给好友 ******/
+.zhuanFaToFriend_inputWrapper {
+	position: absolute;
+	top: 44px;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+input[type="text"].yellow_border_input {
+	border-radius: 0;
+	border-color: #f39800;
+	outline: none;
+	margin-bottom: 0;
+}
+.zhuanFaToFriend_ul {
+	position: absolute;
+	top: 104px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 0 10px 10px;
+	overflow-y: auto;
+}
+.zhuanFaToFriend_li {
+	position: relative;
+	height: 50px;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+label.zhuanFaToFriend_label {
+	display: block;
+	position: relative;
+	height: 50px;
+	padding: 5px 40px 5px 60px;
+	margin: 0 -10px;
+	float: none;
+	width: auto;
+	text-align: left;
+	overflow: hidden;
+}
+label.zhuanFaToFriend_label:active {
+	background-color: #eee;
+}
+.zhuanFaToFriend_headerImg {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+input[type="checkbox"].zhuanFaToFriend_checkbox {
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 17px;
+	width: 15px;
+	height: 15px;
+}
+
+/******** 请求添加好友 *******/
+.requestFriend_inner {
+	padding: 10px;
+}
+.yellowBtn {
+	display: block;
+	height: 40px;
+	margin-top: 10px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #f39800;
+	border-radius: 5px;
+}
+.yellowBtn:active {
+	background-color: #E48F01;
+}
+
+
+.no_border {
+	border: none!important;
+}
+.no_bg {
+	background: none!important;
+}
+
+
+#tipMsg_box {
+	display: none;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	z-index: 10000;
+	width: 160px;
+	margin-left: -80px;
+	line-height: 30px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,.7);
+	color: #fff;
+	text-align: center;
+}
+#tipMsg_box.show {
+	display: block;
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: tipBoxShow;
+	animation-name: tipBoxShow;
+	-webkit-animation-timing-function: ease-out;
+	animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes tipBoxShow {
+	0% {
+		top: 50%;
+		opacity: 0;
+	}
+	80% {
+		top: 38%;
+	}
+	100% {
+		top: 40%;
+		opacity: 1;
+	}
+}
+
+@keyframes topBoxShow {
+	0% {
+		top: 50%;
+		opacity: 0;
+	}
+	80% {
+		top: 38%;
+	}
+	100% {
+		top: 40%;
+		opacity: 1;
+	}
+}
+
+
+/******** 所有按钮按下效果 *********/
+img.icon_img.pressed,
+img.tabIcon.pressed,
+a.header_btn.pressed,
+#send_btn.pressed,
+#personalLabel a.personal_label.pressed,
+#custom_true_addQuestion.pressed {
+	-webkit-animation: btnPressed 0.15s ease-out;
+	animation: btnPressed 0.15s ease-out;
+}
+
+@-webkit-keyframes btnPressed {
+	0% {
+		-webkit-transform: scale(1);
+	}
+	70% {
+		-webkit-transform: scale(1.1);
+	}
+	100% {
+		-webkit-transform: scale(1);
+	}
+}
+@keyframes btnPressed {
+	0% {
+		transform: scale(1);
+	}
+	70% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+/************ 下拉刷新 ************/
+.iScroll {
+	position: relative;
+	background-color: #888;
+}
+.pullDown, 
+.pullUp {
+	height:40px;
+	line-height:40px;
+	padding: 0;
+	border-bottom:1px solid #ccc;
+	font-weight:bold;
+	font-size:14px;
+	color:#fff;
+	text-align: center;
+}
+.pullDown {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+}
+
+.pullDown .pullDownIcon, 
+.pullUp .pullUpIcon  {
+	display:inline-block; 
+	width:30px; 
+	height:30px;
+	overflow: hidden;
+	vertical-align: middle;
+	background:url(../img/pull_icon1.png) 0 0 no-repeat;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 250ms;	
+	transition-duration: 250ms;
+}
+
+.pullDown .pullDownIcon {
+	-webkit-transform: rotate(0deg) translateZ(0);
+	transform: rotate(0deg) translateZ(0);
+}
+.pullUp .pullUpIcon  {
+	-webkit-transform: rotate(-180deg) translateZ(0);
+	transform: rotate(-180deg) translateZ(0);
+}
+.pullUp .pullUpLabel,
+.pullDown .pullDownLabel {
+	padding-left: 5px;
+}
+
+.pullDown.flip .pullDownIcon {
+	-webkit-transform: rotate(-180deg) translateZ(0);
+	transform: rotate(-180deg) translateZ(0);
+}
+
+.pullUp.flip .pullUpIcon {
+	-webkit-transform: rotate(0deg) translateZ(0);
+	transform: rotate(0deg) translateZ(0);
+}
+.pullDown.loading {
+	/*top: 0;*/
+	z-index: 2;
+	border-bottom: 1px solid #666;
+	background-color: #888;
+}
+
+.custom_header_title:before {
+	content: "";
+	display: none;
+	width: 20px;
+	height: 20px;
+	background: url(../img/pull_icon1.png) 0 100% no-repeat;
+	background-size: 100%;
+	margin: 0 10px 0 -30px;
+	vertical-align: text-top;
+} 
+.custom_header_title.loading:before {
+	display: inline-block;
+}
+
+.pullDown.loading .pullDownIcon, 
+.pullUp.loading .pullUpIcon,
+.custom_header_title.loading:before {
+	background-position:0 100%;
+
+	-webkit-transform: rotate(0deg) translateZ(0);
+	transform: rotate(0deg) translateZ(0);
+	-webkit-transition-duration: 0ms;
+	transition-duration: 0ms;
+
+	-webkit-animation: loading 2s linear infinite;
+	animation: loading 2s linear infinite;
+}
+
+@-webkit-keyframes loading {
+	from { -webkit-transform:rotate(0deg) translateZ(0); }
+	to { -webkit-transform:rotate(360deg) translateZ(0); }
+}
+

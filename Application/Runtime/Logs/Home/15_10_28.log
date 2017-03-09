@@ -1,0 +1,74 @@
+[ 2015-10-28T16:24:21+08:00 ] 127.0.0.1 /index.php/uinfo/GetFriendM/uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-10-28T16:24:22+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2015-10-28T16:24:22+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2015-10-28T16:24:28+08:00 ] 127.0.0.1 /index.php/uinfo/GetFriendM/uid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 7 GROUP BY fuid  [ RunTime:0.0268s ]
+NOTIC: [2048] Non-static method Home\models\Muser::Getmessagefuid() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 419 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0276s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0277s ]
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on user.id=userinfo.uid  WHERE user.id = '3' LIMIT 1   [ RunTime:0.0269s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE `to` = 7 AND `from` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0286s ]
+SQL: SELECT * FROM `message` WHERE `to` = 7 AND `from` = 3 AND `status` = 0 ORDER BY timeline desc LIMIT 1   [ RunTime:0.0274s ]
+NOTIC: [2048] Non-static method Home\models\Muser::Getmessagefuid() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 419 行.
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on user.id=userinfo.uid  WHERE user.id = '9' LIMIT 1   [ RunTime:0.0272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE `to` = 7 AND `from` = 9 AND `status` = 0 LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `message` WHERE `to` = 7 AND `from` = 9 AND `status` = 0 ORDER BY timeline desc LIMIT 1   [ RunTime:0.0283s ]
+NOTIC: [2048] Non-static method Home\models\Muser::Getmessagefuid() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 419 行.
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on user.id=userinfo.uid  WHERE user.id = '12' LIMIT 1   [ RunTime:0.0268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE `to` = 7 AND `from` = 12 AND `status` = 0 LIMIT 1   [ RunTime:0.0274s ]
+SQL: SELECT * FROM `message` WHERE `to` = 7 AND `from` = 12 AND `status` = 0 ORDER BY timeline desc LIMIT 1   [ RunTime:0.0283s ]
+NOTIC: [2048] Non-static method Home\models\Muser::Getmessagefuid() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 419 行.
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on user.id=userinfo.uid  WHERE user.id = '13' LIMIT 1   [ RunTime:0.0267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE `to` = 7 AND `from` = 13 AND `status` = 0 LIMIT 1   [ RunTime:0.0284s ]
+SQL: SELECT * FROM `message` WHERE `to` = 7 AND `from` = 13 AND `status` = 0 ORDER BY timeline desc LIMIT 1   [ RunTime:0.0293s ]
+
+[ 2015-10-28T16:25:31+08:00 ] 127.0.0.1 /index.php/uinfo/GetFriendM/uid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 7 GROUP BY fuid  [ RunTime:0.0280s ]
+NOTIC: [2048] Non-static method Home\models\Muser::Getmessagefuid() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 419 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0286s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0280s ]
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on user.id=userinfo.uid  WHERE user.id = '3' LIMIT 1   [ RunTime:0.0285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE `to` = 7 AND `from` = 3 AND `status` = 0 LIMIT 1   [ RunTime:0.0347s ]
+SQL: SELECT * FROM `message` WHERE `to` = 7 AND `from` = 3 AND `status` = 0 ORDER BY timeline desc LIMIT 1   [ RunTime:0.0284s ]
+NOTIC: [2048] Non-static method Home\models\Muser::Getmessagefuid() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 419 行.
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on user.id=userinfo.uid  WHERE user.id = '9' LIMIT 1   [ RunTime:0.0275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE `to` = 7 AND `from` = 9 AND `status` = 0 LIMIT 1   [ RunTime:0.0297s ]
+SQL: SELECT * FROM `message` WHERE `to` = 7 AND `from` = 9 AND `status` = 0 ORDER BY timeline desc LIMIT 1   [ RunTime:0.0448s ]
+NOTIC: [2048] Non-static method Home\models\Muser::Getmessagefuid() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 419 行.
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on user.id=userinfo.uid  WHERE user.id = '12' LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE `to` = 7 AND `from` = 12 AND `status` = 0 LIMIT 1   [ RunTime:0.0354s ]
+SQL: SELECT * FROM `message` WHERE `to` = 7 AND `from` = 12 AND `status` = 0 ORDER BY timeline desc LIMIT 1   [ RunTime:0.0298s ]
+NOTIC: [2048] Non-static method Home\models\Muser::Getmessagefuid() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 419 行.
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on user.id=userinfo.uid  WHERE user.id = '13' LIMIT 1   [ RunTime:0.0277s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE `to` = 7 AND `from` = 13 AND `status` = 0 LIMIT 1   [ RunTime:0.0284s ]
+SQL: SELECT * FROM `message` WHERE `to` = 7 AND `from` = 13 AND `status` = 0 ORDER BY timeline desc LIMIT 1   [ RunTime:0.0303s ]
+

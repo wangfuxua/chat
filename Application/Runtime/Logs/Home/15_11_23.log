@@ -1,0 +1,611 @@
+[ 2015-11-23T13:31:35+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac=[%22111111111111222222222222%22,%22dasdasdsa%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+
+[ 2015-11-23T13:31:35+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+
+[ 2015-11-23T13:31:35+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+
+[ 2015-11-23T13:31:40+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac=[%22111111111111222222222222%22,%22dasdasdsa%22]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+
+[ 2015-11-23T13:31:50+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac=[%22111111111111222222222222%22,%22dasdasdsa%22]&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0280s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 99 行.
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined variable: d D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 138 行.
+
+[ 2015-11-23T13:32:09+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac=[%222B1A1150A0BB%22,%22dasdasdsa%22]&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0294s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 99 行.
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined variable: d D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 138 行.
+
+[ 2015-11-23T13:32:28+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac=[%222B1A1150A0BB%22,%22dasdasdsa%22]&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0291s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 99 行.
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined variable: d D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 138 行.
+
+[ 2015-11-23T13:32:43+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac=[%222B1A1150A0BB%22,%22dasdasdsa%22]&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+
+[ 2015-11-23T13:33:44+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac=[%222B1A1150A0BB%22,%22dasdasdsa%22]&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000286s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+
+[ 2015-11-23T13:34:13+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+
+[ 2015-11-23T13:34:36+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+
+[ 2015-11-23T13:35:14+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+
+[ 2015-11-23T13:35:22+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+
+[ 2015-11-23T13:35:57+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+
+[ 2015-11-23T13:36:05+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+
+[ 2015-11-23T13:36:18+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+
+[ 2015-11-23T13:36:49+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+
+[ 2015-11-23T13:37:15+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000247s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+
+[ 2015-11-23T13:37:42+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+
+[ 2015-11-23T13:37:43+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+
+[ 2015-11-23T13:37:52+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+
+[ 2015-11-23T13:37:53+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+
+[ 2015-11-23T13:37:53+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000261s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+
+[ 2015-11-23T13:37:53+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000340s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+
+[ 2015-11-23T13:37:53+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+
+[ 2015-11-23T13:37:54+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+
+[ 2015-11-23T13:37:54+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+
+[ 2015-11-23T13:38:11+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+
+[ 2015-11-23T13:39:03+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+
+[ 2015-11-23T13:39:22+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+
+[ 2015-11-23T13:39:22+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+
+[ 2015-11-23T13:39:22+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+
+[ 2015-11-23T13:39:22+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+
+[ 2015-11-23T13:39:22+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22,%27hid%27:%272B1A1150A0BB%27}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+
+[ 2015-11-23T13:39:30+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+
+[ 2015-11-23T13:40:04+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%2211111111111%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+
+[ 2015-11-23T13:40:14+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+
+[ 2015-11-23T13:40:23+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0275s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB','1448257223','1448257223','1') [ RunTime:0.0389s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB' in 'where clause'
+
+[ 2015-11-23T13:41:36+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0290s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB','1448257295','1448257295','1') [ RunTime:0.0415s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB' in 'where clause'
+
+[ 2015-11-23T13:41:43+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0281s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 99 行.
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined variable: d D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 138 行.
+
+[ 2015-11-23T13:41:48+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0293s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0295s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB','1448257308','1448257308','1') [ RunTime:0.0299s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB' in 'where clause'
+
+[ 2015-11-23T13:43:06+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22,%22271B1950A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0278s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 99 行.
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined variable: d D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 138 行.
+
+[ 2015-11-23T13:43:16+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%222B1A1150A0BB%22,%22271B1950A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0283s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 99 行.
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined variable: d D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] array_unique() expects parameter 1 to be array, null given D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 136 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 138 行.
+
+[ 2015-11-23T13:43:25+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%222B1A1150A0BB%22,%22271B1950A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+
+[ 2015-11-23T13:43:36+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+
+[ 2015-11-23T13:43:44+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0308s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB','1448257424','1448257424','1') [ RunTime:0.0281s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB' in 'where clause'
+
+[ 2015-11-23T13:44:25+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0292s ]
+
+[ 2015-11-23T13:44:41+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0337s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB' in 'where clause'
+
+[ 2015-11-23T13:46:50+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0291s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `pass_relation` WHERE `uid` = 7 AND `hid` = '2B1A1150A0BB' LIMIT 1   [ RunTime:0.0320s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB' in 'where clause'
+
+[ 2015-11-23T13:47:01+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `pass_relation` WHERE `uid` = 7 AND `hid` = '2B1A1150A0BB2' LIMIT 1   [ RunTime:0.0311s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448257621','1448257621','1') [ RunTime:0.0286s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB2' in 'where clause'
+
+[ 2015-11-23T13:49:43+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0334s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0284s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448257783','1448257783','1') [ RunTime:0.0287s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB2' in 'where clause'
+
+[ 2015-11-23T13:50:00+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0276s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0276s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448257800','1448257800','1') [ RunTime:0.0272s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB2' in 'where clause'
+
+[ 2015-11-23T13:50:01+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0273s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0275s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448257801','1448257801','1') [ RunTime:0.0275s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB2' in 'where clause'
+
+[ 2015-11-23T13:50:02+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0287s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448257801','1448257801','1') [ RunTime:0.0286s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2B1A1150A0BB2' in 'where clause'
+
+[ 2015-11-23T13:51:52+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0293s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448257912','1448257912','1') [ RunTime:0.0283s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} ) LIMIT 1' at line 1
+
+[ 2015-11-23T13:52:24+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0285s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448257944','1448257944','1') [ RunTime:0.0280s ]
+SQL: SELECT user.name,user.id,userinfo.headimg,userinfo.sex FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid='{2B1A1150A0BB2}' ) LIMIT 1   [ RunTime:0.0301s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pass_relation` WHERE `uid` = 7 AND `hid` = '2B1A1150A0BB2' LIMIT 1   [ RunTime:0.0297s ]
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined index: id D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 7 AND `fuid` = null LIMIT 1   [ RunTime:0.0279s ]
+
+[ 2015-11-23T14:02:58+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0299s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448258578','1448258578','1') [ RunTime:0.0310s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} ) LIMIT 1' at line 1
+
+[ 2015-11-23T14:03:48+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0272s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448258627','1448258627','1') [ RunTime:0.0277s ]
+SQL: SELECT user.name,user.id,userinfo.headimg,userinfo.sex FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid='{2B1A1150A0BB2}' ) LIMIT 1   [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pass_relation` WHERE `uid` = 7 AND `hid` = '2B1A1150A0BB2' LIMIT 1   [ RunTime:0.0321s ]
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined index: id D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 7 AND `fuid` = null LIMIT 1   [ RunTime:0.0269s ]
+
+[ 2015-11-23T14:03:57+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0273s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448258637','1448258637','1') [ RunTime:0.0267s ]
+SQL: SELECT user.name,user.id,userinfo.headimg,userinfo.sex FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid='{2B1A1150A0BB2}' ) LIMIT 1   [ RunTime:0.0274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pass_relation` WHERE `uid` = 7 AND `hid` = '2B1A1150A0BB2' LIMIT 1   [ RunTime:0.0287s ]
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined index: id D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 7 AND `fuid` = null LIMIT 1   [ RunTime:0.0262s ]
+
+[ 2015-11-23T14:06:21+08:00 ] 127.0.0.1 /index.php/uinfo/GetPass?mac={%22hid%22:%222B1A1150A0BB2%22}&uid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0276s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('7','2B1A1150A0BB2','1448258781','1448258781','1') [ RunTime:0.0274s ]
+SQL: SELECT user.name,user.id,userinfo.headimg,userinfo.sex FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid='{2B1A1150A0BB2}' ) LIMIT 1   [ RunTime:0.0281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pass_relation` WHERE `uid` = 7 AND `hid` = '2B1A1150A0BB2' LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+NOTIC: [8] Undefined index: id D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 7 AND `fuid` = null LIMIT 1   [ RunTime:0.0277s ]
+
+[ 2015-11-23T16:44:13+08:00 ] 127.0.0.1 /partner/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+ERR: 无法加载控制器:Partner
+

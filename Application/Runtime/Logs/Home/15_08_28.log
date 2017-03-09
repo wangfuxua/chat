@@ -1,0 +1,67 @@
+[ 2015-08-28T14:01:32+08:00 ] 127.0.0.1 /index.php/uinfo/Getpass?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0026s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('1','11111111111','1440741692','1440741692','1') [ RunTime:0.0395s ]
+SQL: SELECT user.name,user.id,userinfo.headimg,userinfo.sex FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=11111111111 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 1 AND `fuid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-28T14:01:32+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2015-08-28T14:01:32+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2015-08-28T14:01:42+08:00 ] 127.0.0.1 /index.php/uinfo/Getpass?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0038s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('1','11111111111','1440741702','1440741702','1') [ RunTime:0.0543s ]
+SQL: SELECT user.name,user.id,userinfo.headimg,userinfo.sex FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=11111111111 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 1 AND `fuid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-28T14:04:56+08:00 ] 127.0.0.1 /index.php/uinfo/Getpass?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pass_relation` WHERE `uid` = 1 AND `hid` = '11111111111' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-28T14:05:07+08:00 ] 127.0.0.1 /index.php/uinfo/Getpass?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0046s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`hid`,`timeline`,`uptime`,`num`) VALUES ('1','11111111111','1440741907','1440741907','1') [ RunTime:0.0416s ]
+SQL: SELECT user.name,user.id,userinfo.headimg,userinfo.sex FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=11111111111 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pass_relation` WHERE `uid` = 1 AND `hid` = '11111111111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 108 行.
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 1 AND `fuid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+

@@ -1,0 +1,66 @@
+[ 2015-11-03T11:13:10+08:00 ] 127.0.0.1 /index.php/uinfo/GetMessageByUid/day/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+
+[ 2015-11-03T11:13:10+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-11-03T11:13:11+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2015-11-03T11:13:17+08:00 ] 127.0.0.1 /index.php/uinfo/GetMessageByUid/day/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+
+[ 2015-11-03T11:13:28+08:00 ] 127.0.0.1 /index.php/uinfo/GetMessageByUid/day/0/uid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0278s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'from' in 'where clause'
+
+[ 2015-11-03T11:14:16+08:00 ] 127.0.0.1 /index.php/uinfo/GetMessageByUid/day/0/uid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0283s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'from' in 'where clause'
+
+[ 2015-11-03T11:15:47+08:00 ] 127.0.0.1 /index.php/uinfo/GetMessageByUid/day/0/uid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `message` WHERE ( (`fromID`=7 or `toID`=7) ) LIMIT 0,10   [ RunTime:0.0283s ]
+
+[ 2015-11-03T11:16:10+08:00 ] 127.0.0.1 /index.php/uinfo/GetMessageByUid/day/1/uid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `message` WHERE ( (`fromID`=7 or `toID`=7) ) LIMIT 10,10   [ RunTime:0.0289s ]
+

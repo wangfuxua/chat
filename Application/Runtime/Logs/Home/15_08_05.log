@@ -1,0 +1,290 @@
+[ 2015-08-05T09:58:20+08:00 ] 127.0.0.1 /index.php/user/login?username=1111&password=0000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE `username` = '1111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-05T09:58:20+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2015-08-05T09:58:20+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2015-08-05T09:58:33+08:00 ] 127.0.0.1 /index.php/user/login?username=wangfuxu&password=1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wangfuxu' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'wangfuxu' AND `password` = '4057485f70703f4f32e90b50b2546ea5' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-05T09:58:43+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-05T09:59:04+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-05T09:59:49+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-05T10:00:12+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-08-05T10:00:42+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ROOT_PATH - assumed 'ROOT_PATH' D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 47 行.
+
+[ 2015-08-05T10:01:19+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ROOT_PATH - assumed 'ROOT_PATH' D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 47 行.
+
+[ 2015-08-05T10:03:00+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-05T10:04:30+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-08-05T10:04:30+08:00 ] 127.0.0.1 /index.php/uinfo/public/headimg/001.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+ERR: 非法操作:public
+
+[ 2015-08-05T10:04:38+08:00 ] 127.0.0.1 /index.php/uinfo/public/headimg/001.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+ERR: 非法操作:public
+
+[ 2015-08-05T10:04:50+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-05T10:05:11+08:00 ] 127.0.0.1 /index.php/uinfo/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` left join `userinfo` on user.id=userinfo.uid  WHERE ( user.id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-05T10:19:32+08:00 ] 127.0.0.1 /index.php/uinfo/SendFriend?tuid=2&message=hello
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0027s ]
+SQL: INSERT INTO `sendfriend` (`fromuid`,`touid`,`message`,`status`,`timeline`) VALUES ('2','2','hello','0','1438741172') [ RunTime:0.0423s ]
+
+[ 2015-08-05T10:20:25+08:00 ] 127.0.0.1 /index.php/uinfo/SendFriend?tuid=3&message=hello
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0025s ]
+SQL: INSERT INTO `sendfriend` (`fromuid`,`touid`,`message`,`status`,`timeline`) VALUES ('2','3','hello','0','1438741225') [ RunTime:0.0327s ]
+
+[ 2015-08-05T10:20:34+08:00 ] 127.0.0.1 /index.php/uinfo/SendFriend?tuid=2&message=hello
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0026s ]
+SQL: INSERT INTO `sendfriend` (`fromuid`,`touid`,`message`,`status`,`timeline`) VALUES ('2','2','hello','0','1438741234') [ RunTime:0.0525s ]
+
+[ 2015-08-05T10:27:00+08:00 ] 127.0.0.1 /index.php/uinfo/AddPass?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `pass_relation` WHERE `uid` = 2 AND `pid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `pass_relation` (`uid`,`pid`,`timeline`,`uptime`,`num`) VALUES ('2','3','1438741620','1438741620','1') [ RunTime:0.0459s ]
+
+[ 2015-08-05T10:27:10+08:00 ] 127.0.0.1 /index.php/uinfo/AddPass?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pass_relation` WHERE `uid` = 2 AND `pid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `pass_relation` SET `num`='2',`uptime`='1438741630' WHERE `uid` = 2 AND `pid` = 3 [ RunTime:0.0465s ]
+
+[ 2015-08-05T10:27:17+08:00 ] 127.0.0.1 /index.php/uinfo/AddPass?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `pass_relation` WHERE `uid` = 2 AND `pid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pass_relation` SET `num`='3',`uptime`='1438741637' WHERE `uid` = 2 AND `pid` = 3 [ RunTime:0.0309s ]
+
+[ 2015-08-05T11:14:25+08:00 ] 127.0.0.1 /index.php/uinfo/GetSfriend?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0028s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'left jion userinfo on sendfriend.fromuid=userinfo.uid  INNER JOIN left jion user' at line 1
+
+[ 2015-08-05T11:15:10+08:00 ] 127.0.0.1 /index.php/uinfo/GetSfriend?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0031s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'left jion userinfo on sendfriend.fromuid=userinfo.uid  left JOIN left jion user ' at line 1
+
+[ 2015-08-05T11:15:21+08:00 ] 127.0.0.1 /index.php/uinfo/GetSfriend?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0026s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'left jion userinfo on sendfriend.fromuid=userinfo.uid  left JOIN  user on sendfr' at line 1
+
+[ 2015-08-05T11:15:35+08:00 ] 127.0.0.1 /index.php/uinfo/GetSfriend?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0033s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.uid' in 'on clause'
+
+[ 2015-08-05T11:15:49+08:00 ] 127.0.0.1 /index.php/uinfo/GetSfriend?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0057s ]
+SQL: SELECT sendfriend.*,userinfo.headimg,user.name FROM `sendfriend` left JOIN  userinfo on sendfriend.fromuid=userinfo.uid  left JOIN  user on sendfriend.fromuid=user.id  WHERE `fromuid` = '2'  [ RunTime:0.0439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013783s ]
+
+[ 2015-08-05T11:16:56+08:00 ] 127.0.0.1 /index.php/uinfo/GetSfriend?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0025s ]
+SQL: SELECT sendfriend.*,userinfo.headimg,user.name FROM `sendfriend` left JOIN  userinfo on sendfriend.touid=userinfo.uid  left JOIN  user on sendfriend.touid=user.id  WHERE `fromuid` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2015-08-05T11:19:50+08:00 ] 127.0.0.1 /index.php/uinfo/GetSfriend?uid=2&pid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0049s ]
+SQL: SELECT sendfriend.*,userinfo.headimg,user.name FROM `sendfriend` left JOIN  userinfo on sendfriend.touid=userinfo.uid  left JOIN  user on sendfriend.touid=user.id  WHERE `fromuid` = '2'  [ RunTime:0.0006s ]
+

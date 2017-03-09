@@ -1,0 +1,109 @@
+[ 2015-08-13T16:57:58+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'uid' in field list is ambiguous
+
+[ 2015-08-13T16:58:25+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'uid' in field list is ambiguous
+
+[ 2015-08-13T16:58:26+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'uid' in field list is ambiguous
+
+[ 2015-08-13T16:58:26+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'uid' in field list is ambiguous
+
+[ 2015-08-13T16:58:27+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'uid' in field list is ambiguous
+
+[ 2015-08-13T16:58:27+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'uid' in field list is ambiguous
+
+[ 2015-08-13T16:59:31+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'uid' in field list is ambiguous
+
+[ 2015-08-13T16:59:56+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0025s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'uid' in field list is ambiguous
+
+[ 2015-08-13T17:00:49+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0021s ]
+SQL: SELECT user.name,user.id,userinfo.headimg FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-13T17:01:10+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0034s ]
+SQL: SELECT user.name,user.id,userinfo.headimg FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-13T17:01:11+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0038s ]
+SQL: SELECT user.name,user.id,userinfo.headimg FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=1 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-13T17:01:18+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0025s ]
+SQL: SELECT user.name,user.id,userinfo.headimg FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-13T17:01:19+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0021s ]
+SQL: SELECT user.name,user.id,userinfo.headimg FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-13T17:01:19+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0022s ]
+SQL: SELECT user.name,user.id,userinfo.headimg FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-13T17:01:28+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&uid=2&mac={%22hid%22:%221%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0039s ]
+SQL: SELECT user.name,user.id,userinfo.headimg FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=1 ) LIMIT 1   [ RunTime:0.0004s ]
+

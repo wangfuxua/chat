@@ -1,0 +1,76 @@
+[ 2015-08-20T11:10:27+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-08-20T11:10:27+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2015-08-20T11:16:07+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2015-08-20T14:32:05+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2015-08-20T14:36:20+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2015-08-20T14:36:20+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2015-08-20T19:13:11+08:00 ] 127.0.0.1 /index.php/uinfo/getquery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020096s ]
+
+[ 2015-08-20T19:13:19+08:00 ] 127.0.0.1 /index.php/uinfo/getquery?uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [2048] Non-static method Home\models\Muser::GetQuery() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 308 行.
+SQL: SHOW COLUMNS FROM `query` [ RunTime:0.0164s ]
+SQL: SELECT `query`,`id` FROM `query` WHERE ( query.uid=0 ) ORDER BY rand() LIMIT 1   [ RunTime:0.0368s ]
+SQL: SHOW COLUMNS FROM `answer` [ RunTime:0.0366s ]
+SQL: SELECT `id`,`answer` FROM `answer` WHERE ( qid=1 )  [ RunTime:0.0010s ]
+
+[ 2015-08-20T19:14:36+08:00 ] 127.0.0.1 /index.php/uinfo/getquery?uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+NOTIC: [2048] Non-static method Home\models\Muser::GetQuery() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 308 行.
+SQL: SHOW COLUMNS FROM `query` [ RunTime:0.0025s ]
+SQL: SELECT `query`,`id` FROM `query` WHERE ( query.uid=0 ) ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `answer` [ RunTime:0.0026s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-20T19:15:00+08:00 ] 127.0.0.1 /index.php/uinfo/getquery?uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+NOTIC: [2048] Non-static method Home\models\Muser::GetQuery() should not be called statically, assuming $this from incompatible context D:\wamp1\www\tp\Application\Home\Controller\UinfoController.class.php 第 308 行.
+SQL: SHOW COLUMNS FROM `query` [ RunTime:0.0029s ]
+SQL: SELECT `query`,`id` FROM `query` WHERE ( query.uid=0 ) ORDER BY rand() LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable:  D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 289 行.
+

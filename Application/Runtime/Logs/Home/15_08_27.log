@@ -1,0 +1,766 @@
+[ 2015-08-27T13:45:31+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003423s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.1747s ]
+SQL: SELECT `touid` FROM `sendfriend` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `sendfriend` SET `status`='1' WHERE `id` = 7 [ RunTime:0.0669s ]
+
+[ 2015-08-27T13:45:31+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2015-08-27T13:45:31+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-08-27T13:49:30+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0037s ]
+SQL: SELECT `touid` FROM `sendfriend` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sendfriend` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0489s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.1016s ]
+NOTIC: [8] Undefined index: fromuid D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 244 行.
+NOTIC: [8] Undefined index: fromuid D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 247 行.
+ERR: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+
+[ 2015-08-27T13:50:53+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0101s ]
+SQL: SELECT `touid` FROM `sendfriend` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sendfriend` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0159s ]
+NOTIC: [8] Undefined index: fromuid D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 244 行.
+NOTIC: [8] Undefined index: fromuid D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 247 行.
+
+[ 2015-08-27T13:51:22+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003259s ]
+
+[ 2015-08-27T13:51:47+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0657s ]
+SQL: SELECT `touid` FROM `sendfriend` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sendfriend` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0752s ]
+
+[ 2015-08-27T13:51:48+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0031s ]
+SQL: SELECT `touid` FROM `sendfriend` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sendfriend` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0407s ]
+
+[ 2015-08-27T13:52:04+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047692s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0111s ]
+SQL: SELECT `touid` FROM `sendfriend` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sendfriend` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0414s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: fromuid D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 245 行.
+NOTIC: [8] Undefined index: fromuid D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 248 行.
+
+[ 2015-08-27T13:52:26+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0033s ]
+SQL: SELECT `touid` FROM `sendfriend` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-27T13:52:41+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0035s ]
+SQL: SELECT `touid` FROM `sendfriend` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-27T13:53:05+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0036s ]
+SQL: SELECT `fromuid` FROM `sendfriend` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sendfriend` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0639s ]
+
+[ 2015-08-27T13:53:17+08:00 ] 127.0.0.1 /index.php/uinfo/AgreeFriend/uid/8/aid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `sendfriend` [ RunTime:0.0027s ]
+SQL: SELECT `fromuid` FROM `sendfriend` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sendfriend` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0386s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0032s ]
+SQL: INSERT INTO `friend` (`uid`,`fuid`,`timeline`) VALUES ('8','7','1440654797'),('7','8','1440654797') [ RunTime:0.0714s ]
+
+[ 2015-08-27T14:11:22+08:00 ] 127.0.0.1 /index.php/article/TransArt&uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+ERR: 非法操作:TransArt&uid=2&aid=2
+
+[ 2015-08-27T14:11:29+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `uid` = 2 AND `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'from' cannot be null
+
+[ 2015-08-27T14:11:59+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `uid` = 2 AND `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null
+
+[ 2015-08-27T14:12:30+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `uid` = 2 AND `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-27T14:12:52+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `uid` = 2 AND `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null
+
+[ 2015-08-27T14:12:55+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `uid` = 2 AND `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-27T14:13:21+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `uid` = 2 AND `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-27T14:13:48+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-08-27T14:14:52+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `send_article` (`from`,`title`,`desc`,`hit`,`uid`,`timeline`,`transmit`,`good`) VALUES ('2','这是一个链接','http://www.hao123.com/','0','2','1440656092','1','0') [ RunTime:0.0616s ]
+SQL: UPDATE `send_article` SET `transmit`=transmit+1 WHERE `id` = 0 [ RunTime:0.0164s ]
+
+[ 2015-08-27T14:15:36+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013214s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0033s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `send_article` (`from`,`title`,`desc`,`hit`,`uid`,`timeline`,`transmit`,`good`) VALUES ('2','这是一个链接','http://www.hao123.com/','0','2','1440656136','1','0') [ RunTime:0.0494s ]
+SQL: UPDATE `send_article` SET `transmit`=transmit+1 WHERE `id` = 0 [ RunTime:0.0007s ]
+
+[ 2015-08-27T14:16:25+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-27T14:17:16+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `send_article` (`from`,`title`,`desc`,`hit`,`uid`,`timeline`,`transmit`,`good`) VALUES ('2','这是一个链接','http://www.hao123.com/','0','2','1440656236','1','0') [ RunTime:0.0604s ]
+SQL: UPDATE `send_article` SET `transmit`=transmit+1 WHERE `id` = 2 [ RunTime:0.0272s ]
+
+[ 2015-08-27T14:17:27+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `send_article` (`from`,`title`,`desc`,`hit`,`uid`,`timeline`,`transmit`,`good`) VALUES ('2','这是一个链接','http://www.hao123.com/','0','2','1440656247','2','0') [ RunTime:0.0393s ]
+SQL: UPDATE `send_article` SET `transmit`=transmit+1 WHERE `id` = 2 [ RunTime:0.0570s ]
+
+[ 2015-08-27T14:17:37+08:00 ] 127.0.0.1 /index.php/article/TransArt?uid=2&aid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`title`,`desc`,`hit`,`transmit`,`good`,`from` FROM `send_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `send_article` (`from`,`title`,`desc`,`hit`,`uid`,`timeline`,`transmit`,`good`) VALUES ('1','mmmmmm','0','0','2','1440656257','3','3') [ RunTime:0.0412s ]
+SQL: UPDATE `send_article` SET `transmit`=transmit+1 WHERE `id` = 1 [ RunTime:0.0288s ]
+
+[ 2015-08-27T14:59:27+08:00 ] 127.0.0.1 /index.php/uinfo/GetFriend?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 1 LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-08-27T15:00:10+08:00 ] 127.0.0.1 /index.php/uinfo/GetFriend?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 1 LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2015-08-27T15:00:22+08:00 ] 127.0.0.1 /index.php/uinfo/Getuser?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT userinfo.*,user.name,user.status,user.username,hard_relation.hid FROM `user` left join `userinfo` on user.id=userinfo.uid left JOIN hard_relation on user.id=hard_relation.uid  WHERE ( user.id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-27T15:00:52+08:00 ] 127.0.0.1 /index.php/uinfo/Getuser?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT userinfo.*,user.name,user.status,user.username,hard_relation.hid FROM `user` left join `userinfo` on user.id=userinfo.uid left JOIN hard_relation on user.id=hard_relation.uid  WHERE ( user.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-27T15:01:06+08:00 ] 127.0.0.1 /index.php/uinfo/Getuser?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT userinfo.*,user.name,user.status,user.username,hard_relation.hid FROM `user` left join `userinfo` on user.id=userinfo.uid left JOIN hard_relation on user.id=hard_relation.uid  WHERE ( user.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-27T15:01:07+08:00 ] 127.0.0.1 /index.php/uinfo/Getuser?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT userinfo.*,user.name,user.status,user.username,hard_relation.hid FROM `user` left join `userinfo` on user.id=userinfo.uid left JOIN hard_relation on user.id=hard_relation.uid  WHERE ( user.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-27T15:01:08+08:00 ] 127.0.0.1 /index.php/uinfo/Getuser?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT userinfo.*,user.name,user.status,user.username,hard_relation.hid FROM `user` left join `userinfo` on user.id=userinfo.uid left JOIN hard_relation on user.id=hard_relation.uid  WHERE ( user.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-27T15:01:12+08:00 ] 127.0.0.1 /index.php/uinfo/Getuser?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT userinfo.*,user.name,user.status,user.username,hard_relation.hid FROM `user` left join `userinfo` on user.id=userinfo.uid left JOIN hard_relation on user.id=hard_relation.uid  WHERE ( user.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-27T15:01:27+08:00 ] 127.0.0.1 /index.php/uinfo/Getuser?uid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT userinfo.*,user.name,user.status,user.username,hard_relation.hid FROM `user` left join `userinfo` on user.id=userinfo.uid left JOIN hard_relation on user.id=hard_relation.uid  WHERE ( user.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-27T15:19:32+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&mac={%27hid%27:%27111111111111%27}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+
+[ 2015-08-27T15:20:02+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&mac={hid:111111111111}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+
+[ 2015-08-27T15:20:09+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&mac={hid:111111111111}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-08-27T15:20:45+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&mac={hid:111111111111}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0928s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0071s ]
+SQL: SELECT user.name,user.id,userinfo.headimg FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=11111111111 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 1 AND `fuid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-08-27T15:20:47+08:00 ] 127.0.0.1 /index.php?s=/uinfo/Getpass&mac={hid:111111111111}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `pass_relation` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `hard_relation` [ RunTime:0.0026s ]
+SQL: SELECT user.name,user.id,userinfo.headimg FROM `hard_relation` left JOIN user on hard_relation.uid=user.id  left JOIN userinfo on hard_relation.uid=userinfo.uid  WHERE ( hard_relation.hid=11111111111 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Non-static method Home\models\Muser::quchong() should not be called statically D:\wamp1\www\tp\Application\Home\models\Muser.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `friend` WHERE `uid` = 1 AND `fuid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-08-27T17:18:25+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0030s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:02+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0030s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:13+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0053s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:14+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0031s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:14+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0035s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:14+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0030s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:14+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0031s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:14+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0032s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:44+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0029s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:44+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0028s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:44+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0029s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:45+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0029s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:45+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0028s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:45+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0028s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:19:45+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0033s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:20:48+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0033s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:20:49+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0041s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:20:49+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0028s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:20:49+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0033s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:20:59+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0030s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:21:10+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0027s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:21:22+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1,2&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0030s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:28:33+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1,2&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0045s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:28:35+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1,2&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\Application\Home\Controller\ArticleController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `send_article` [ RunTime:0.0027s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\wamp1\www\tp\ThinkPHP\Library\Think\Db\Driver.class.php 第 567 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-08-27T17:29:08+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1,2&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+
+[ 2015-08-27T17:30:01+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1,2&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+
+[ 2015-08-27T17:30:11+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1,2&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on userinfo.uid=user.id  WHERE user.id = '2' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-27T17:30:12+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1,2&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on userinfo.uid=user.id  WHERE user.id = '2' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-08-27T17:48:19+08:00 ] 127.0.0.1 /index.php?s=/article/PickArt&art=1,2&uid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT user.name,userinfo.* FROM `user` left JOIN userinfo on userinfo.uid=user.id  WHERE user.id = '2' LIMIT 1   [ RunTime:0.0003s ]
+
